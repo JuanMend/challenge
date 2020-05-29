@@ -1,0 +1,28 @@
+.main-nav {
+  border-top: solid 1px #d5d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-nav-list {
+  list-style-type: none;
+  /* border: solid red; */
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-nav-btn {
+  background-color: #0069d2;
+  color: white;
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.main-nav-title {
+  /* border: solid yellow; */
+}
+
+.title-h1 {
+  font-size: 23px;
+}

@@ -1,0 +1,33 @@
+.hero-img {
+  background-image: url(../../../images/treadmill.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+
+.hero-small-description {
+  /* border: solid red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-coach-btn {
+  background-color: #0069d2;
+  color: white;
+  border: solid 1px#ffffff;
+  width: 310px;
+  height: 45px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.hero-h2 {
+  font-size: 65px;
+  /* border: solid red; */
+  width: 60%;
+  text-align: center;
+  color: #ffffff;
+}
