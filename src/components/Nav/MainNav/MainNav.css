@@ -6,7 +6,6 @@
 }
 .main-nav-list {
   list-style-type: none;
-  /* border: solid red; */
   width: 40vw;
   display: flex;
   justify-content: space-evenly;
@@ -19,10 +18,12 @@
   border-radius: 5px;
 }
 
-.main-nav-title {
-  /* border: solid yellow; */
-}
-
 .title-h1 {
   font-size: 23px;
+}
+
+@media (max-width: 420px) {
+  .main-nav-list {
+    display: none;
+  }
 }

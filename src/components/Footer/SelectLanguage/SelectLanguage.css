@@ -1,0 +1,16 @@
+.language-h1 {
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d5d6d6;
+  width: 120px;
+  margin-right: 18vw;
+  margin-left: 20px;
+}
+
+.arrow-icon {
+  font-size: 22px;
+  color: #d5d6d6;
+  margin-left: 10px;
+}

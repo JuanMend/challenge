@@ -1,0 +1,24 @@
+.legal-container {
+  text-align: left;
+  margin-left: 19vw;
+  width: 40vw;
+}
+.legal-list {
+  list-style-type: none;
+  color: #d5d6d6;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 420px) {
+  .legal-container {
+    border-top: solid 1px #585a5d;
+    width: 98vw;
+  }
+  .legal-list {
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+  }
+}

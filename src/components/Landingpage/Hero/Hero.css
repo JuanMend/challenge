@@ -7,7 +7,6 @@
 }
 
 .hero-small-description {
-  /* border: solid red; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -26,8 +25,29 @@
 }
 .hero-h2 {
   font-size: 65px;
-  /* border: solid red; */
   width: 60%;
   text-align: center;
   color: #ffffff;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-h2 {
+    font-size: 36px;
+  }
+  .hero-img {
+    background-position: center;
+    background-size: cover;
+  }
 }

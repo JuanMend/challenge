@@ -1,6 +1,5 @@
 .media-container {
   background-color: #f4f5f7;
-
   overflow-x: hidden;
 }
 .row {
@@ -27,10 +26,9 @@
 }
 
 .media-section {
-  /* border: solid red; */
   height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 140vw;
+  width: 110vw;
 }

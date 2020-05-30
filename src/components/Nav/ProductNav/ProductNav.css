@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 420px) {
+  .product-nav {
+    display: none;
+  }
+}

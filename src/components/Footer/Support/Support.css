@@ -1,0 +1,11 @@
+.support-container {
+  text-align: left;
+}
+.support-list {
+  list-style-type: none;
+  color: #d5d6d6;
+  line-height: 30px;
+}
+.active-li {
+  color: white;
+}
