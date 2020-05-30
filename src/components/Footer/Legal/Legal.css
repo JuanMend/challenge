@@ -15,6 +15,7 @@
   .legal-container {
     border-top: solid 1px #585a5d;
     width: 98vw;
+    margin: 0;
   }
   .legal-list {
     flex-direction: column;

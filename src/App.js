@@ -16,9 +16,6 @@ function App(props) {
 
   return (
     <div className="App">
-      {/* <Navigation
-        
-      /> */}
       <ProductNav language={language} />
       <MainNav language={language} />
       <Hero language={language} />

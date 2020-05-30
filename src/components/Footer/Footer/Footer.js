@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import "./Footer.css";
+
 import Company from "../Company/Company";
 import Account from "../Account/Account";
 import Support from "../Support/Support";
 import Social from "../Social/Social";
 import Legal from "../Legal/Legal";
-import SelectLanguage from "../SelectLanguage/SelectLanguage";
 
 function Footer(props) {
   let languageStoredInLocalStorage = localStorage.getItem("language");

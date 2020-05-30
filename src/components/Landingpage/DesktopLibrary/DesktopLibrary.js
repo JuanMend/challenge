@@ -24,7 +24,7 @@ function DesktopLibrary(props) {
   let content = {
     English: {
       firstCard: "Lake Inniscarra, Ireland-Pyramid",
-      SecondCard: "Performance Series",
+      secondCard: "Performance Series",
       thirdCard: "Slow Pulls and Fast Intervals",
       fourthCard: "20 Minutes of Toned",
       fifthCard: "Charles Race, Boston, Massachusetts",
@@ -34,7 +34,7 @@ function DesktopLibrary(props) {
     },
     Japanese: {
       firstCard: "イニスカラ湖、アイルランド-ピラミッド",
-      SecondCard: "パフォーマンスシリーズ",
+      secondCard: "パフォーマンスシリーズ",
       thirdCard: "遅いプルと速い間隔",
       fourthCard: "トーンの20分",
       fifthCard: "チャールズレース、マサチューセッツ州ボストン",
@@ -74,7 +74,7 @@ function DesktopLibrary(props) {
             <img src={PerformanceBig} className="photo" />
             <div className="desktop-content">
               <div className="inside-content">
-                <h3 className="card-title">{content.SecondCard}</h3>
+                <h3 className="card-title">{content.secondCard}</h3>
                 <img className="photo-small" src={PerformanceSmall} />
               </div>
             </div>
@@ -100,7 +100,7 @@ function DesktopLibrary(props) {
             <img src={TonedBig} className="photo" />
             <div className="desktop-content">
               <div className="inside-content">
-                <h3 className="card-title">{content.fourCard}</h3>
+                <h3 className="card-title">{content.fourthCard}</h3>
                 <img className="photo-small" src={TonedSmall} />
               </div>
             </div>

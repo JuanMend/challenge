@@ -36,12 +36,12 @@ function Equipment(props) {
         <div className="equipment-card">
           <div className="equipment-content">
             <img src={Treadmills} className="equipment-photo" />
-            <h1>{content.TreadmillCard}</h1>
+            <h1>{content.treadmillCard}</h1>
           </div>
           {/* Second Card */}
           <div className="equipment-content">
             <img src={Bikes} className="equipment-photo" />
-            <h1>{content.BikesCard}</h1>
+            <h1>{content.bikesCard}</h1>
           </div>
           {/* Third Card */}
           <div className="equipment-content">

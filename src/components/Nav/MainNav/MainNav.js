@@ -29,7 +29,7 @@ function MainNav(props) {
           <h1 className="title-h1">iFIT COACH</h1>
         </div>
         <ul className="main-nav-list">
-          <li>{content.LinkOne}</li>
+          <li>{content.linkOne}</li>
           <li>{content.linkTwo}</li>
           <li>{content.linkThree}</li>
           <li>{content.linkFour}</li>

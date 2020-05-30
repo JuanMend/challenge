@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   background-color: #ffffff;
-
   width: 35vw;
   height: 25vh;
   box-shadow: 0px 1px #2e3134;
@@ -31,4 +30,14 @@
   justify-content: center;
   align-items: center;
   width: 110vw;
+}
+@media (max-width: 420px) {
+  .row {
+    /* border: solid red; */
+    width: 40vw;
+  }
+  .media-section {
+    /* border: solid blue; */
+    width: 140vw;
+  }
 }
