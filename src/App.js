@@ -6,7 +6,6 @@ import MediaSlider from "./components/Landingpage/MediaSlider/MediaSlider";
 import DesktopLibrary from "./components/Landingpage/DesktopLibrary/DesktopLibrary";
 import Equipment from "./components/Landingpage/Equipment/Equipment";
 import Footer from "./components/Footer/Footer/Footer";
-// import Navigation from "./components/Navigation";
 
 function App(props) {
   let languageStoredInLocalStorage = localStorage.getItem("language");
