@@ -33,11 +33,12 @@
 }
 @media (max-width: 420px) {
   .row {
-    /* border: solid red; */
     width: 40vw;
   }
   .media-section {
-    /* border: solid blue; */
     width: 140vw;
+  }
+  .media-review-paragraph {
+    font-size: 13px;
   }
 }
